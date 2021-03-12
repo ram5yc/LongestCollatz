@@ -86,7 +86,7 @@ namespace LongestCollatz
             //    }
 
             //} while (x < 1000);
-            //Console.WriteLine(x);
+          
         }
     }
 }
