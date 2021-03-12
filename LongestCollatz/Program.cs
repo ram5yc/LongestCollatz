@@ -31,28 +31,28 @@ namespace LongestCollatz
         //if n % 2 = then divide it by 2
         //if !n % 2 = then *3 + 1
         static void Main(string[] args)
-        { 
-            //int i = 1;
-            //int x = 0; 
+        {
+            int i = 1;
+            int x = 0;
 
-            //do
-            //{
-            //    //x++;
-            //    if (x==1)//the chain is ended
-            //    {
+            do
+            {
+                //x++;
+                if (x == 1)//the chain is ended
+                {
 
-            //    }
-            //    else if (i % 2 == 0)
-            //    {
-            //       x = i / 2;
-            //    }
-            //    else
-            //    {
-            //        x = (i * 3) + 1;
-            //    }
-            //    i = x;
+                }
+                else if (i % 2 == 0)
+                {
+                    x = i / 2;
+                }
+                else
+                {
+                    x = (i * 3) + 1;
+                }
+                i = x;
 
-            //} while (x < 1000);
+            } while (x < 1000);
 
 
             //int x = 0;
@@ -86,7 +86,7 @@ namespace LongestCollatz
             //    }
 
             //} while (x < 1000);
-          
+
         }
     }
 }
